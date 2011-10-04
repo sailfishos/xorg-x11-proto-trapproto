@@ -1,0 +1,14 @@
+Name: xorg-x11-proto-trapproto
+Summary: X.Org X11 Protocol trapproto
+Version: 3.4.3
+Release: 0
+Group: Development/System
+License: MIT
+URL: http://www.x.org
+Sources:
+    - http://xorg.freedesktop.org/releases/individual/proto/trapproto-%{version}.tar.bz2
+
+PkgConfigBR:
+    - xt
+Provides: trapproto
+Configure: configure
